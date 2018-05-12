@@ -103,3 +103,50 @@ table {
 .hero{
   padding: 22px 80px 66px 80px;
 }
+/*
+  ------------------------------------------------------
+  Clearfix / Floatfix
+  -------------------------------------------------------
+*/
+.group:before,
+.group:after{
+  content: "";
+  display: table;
+}
+.group:after{
+  clear: both;
+}
+.gruop{
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ---------------------------------------------------------
+  Primary header
+  ---------------------------------------------------------
+*/
+
+.logo{
+  border-top: 4px solid #648880;
+  padding:40px 0 22px 0;
+  float: left;
+}
+/*
+  ---------------------------------------------------------
+  Primary footer
+  ---------------------------------------------------------
+*/
+.primary-footer small{
+  float: left;
+}
+.primary-footer > #b2top{
+float: right;
+background:rgba(121, 158, 238, 0.454);
+padding: 20px 8px;
+border-radius: 5px;
+}
+.primary-footer{
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
